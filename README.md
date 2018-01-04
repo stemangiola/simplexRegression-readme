@@ -41,7 +41,7 @@ if (!require(Rcpp)) {
   library(Rcpp)
 }
 options(buildtools.check = function(action) TRUE)
-install_github("stemangiola/simplexRegression", args = "--preclean", build_vignettes = FALSE, auth_token = "1350e5ec4a849d6c6e975df1dafa219a5ada0dd4", password="x-oauth-basic")
+install_github("stemangiola/simplexRegression", args = "--preclean", build_vignettes = FALSE, auth_token = "PUT_HERE_TOKEN_GIVEN", password="x-oauth-basic")
 set.seed(1234)
 library("simplexRegression")
 
@@ -176,7 +176,7 @@ if (!require(Rcpp)) {
   library(Rcpp)
 }
 options(buildtools.check = function(action) TRUE)
-install_github("stemangiola/simplexRegression", args = "--preclean", build_vignettes = FALSE, auth_token = "1350e5ec4a849d6c6e975df1dafa219a5ada0dd4", password="x-oauth-basic")
+install_github("stemangiola/simplexRegression", args = "--preclean", build_vignettes = FALSE, auth_token = "PUT_HERE_TOKEN_GIVEN", password="x-oauth-basic")
 set.seed(1234)
 library("simplexRegression")
 
